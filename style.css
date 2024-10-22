@@ -47,6 +47,7 @@ ul a {
 }
 #home h1 {
   align-items: center;
+  font-family: Aerospace;
   margin: 120px;
   margin-left: 450px;
   color: #079dff;
@@ -143,15 +144,12 @@ ul a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+  /* position: relative; -- Need to check if this is needed mandatorily */
   overflow: hidden;
 }
 #background-video {
   position: absolute;
-  right: 0;
-  bottom: 0;
   min-width: 100%;
-  min-height: 100%;
   height: 100vh;
   z-index: 0;
   object-fit: cover;
@@ -162,7 +160,6 @@ ul a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  position: relative;
   z-index: 3;
   font-family: "Aerospace";
   font-weight: 600;
@@ -182,5 +179,4 @@ ul a {
 .ans {
   font-size: 30px;
   font-weight: 300;
-  color: #079cffc3;
 }
