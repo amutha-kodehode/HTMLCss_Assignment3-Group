@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Aerospace"; /* Name of the font family */
+  src: url("assets/AstroSpace-0Wl3o.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  height: 100vh;
+  background-image: url(images/hero_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#home img {
+  width: 200px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+ul a {
+  font-family: Aerospace;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.normal_section {
+  height: 100vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#scroll_to_top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#sea_weed_visuals {
+  margin: 40px;
+  /* padding: 30px; */
+  width: 500px;
+  height: 380px;
+  line-height: 1.7;
+}
+#small {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 11.2px;
+  letter-spacing: 1.5px;
+  word-spacing: 2.5px;
+}
+#title {
+  font-family: "Aerospace";
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0px 0px 16px;
+  letter-spacing: 1.5px;
+  word-spacing: 2.5px;
+}
+#contents {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0px 0px 16px;
+  letter-spacing: 1.5px;
+  word-spacing: 2.5px;
+  margin: 14px 0px 24px;
+}
+#video_container {
+  min-width: 877px;
+  min-height: 493px;
+  margin: 20px;
+  margin-top: 40px;
+}
+#image_gallery {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
+  align-items: space-between;
+  justify-content: space-between;
+  font-family: Aerospace;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.item1 {
+  grid-column: 1 / span 3;
+  align-items: left;
+  margin-top: 200px;
+}
+#image_gallery img {
+  height: 300px;
+  width: 350px;
+  gap: 15px;
+}
+.image_container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-weight: 200;
+  gap: 10px;
+  height: 442px;
+  justify-content: space-around;
+  align-items: center;
+}
+.image_container p {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+}
+.image_container h4 {
+  font-weight: 400;
+  font-size: 22px;
+}
